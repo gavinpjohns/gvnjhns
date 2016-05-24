@@ -2,8 +2,9 @@
 FONTS
 ============================== */
 
-@import url("../../fonts/plaid-regular.css");
+@import url("../../fonts/monostene.css");
 @import url("../../fonts/ss-social-regular.css");
+@import url("../../fonts/monosten.css");
 
 
 /*============================
@@ -121,7 +122,7 @@ article {
 TYPOGRAPHY
 ============================== */
 h1, h2 {
-  font-family: "plaid-regular", serif;
+  font-family: "monostene", serif;
   font-weight: normal;
   color: ; } /* Originally PINK #EC1962 */
 
@@ -174,7 +175,7 @@ blockquote {
   border-left: 12px solid #EC1962;
   margin: 0 0 24px; }
   blockquote p {
-    font-family: "plaid-regular", serif;
+    font-family: "monostene", serif;
     font-weight: normal;
     font-size: 2.125rem;
     line-height: 3rem;
@@ -185,7 +186,7 @@ blockquote {
   blockquote::before {
     content: '\0022';
     display: block;
-    font-family: "plaid-regular", serif;
+    font-family: "monostene", serif;
     font-weight: normal;
     font-size: 0rem;   /* Originally 37.5 */
     color: #EFDF31;
