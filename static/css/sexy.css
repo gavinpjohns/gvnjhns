@@ -24,8 +24,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   line-height: 1; }
 
-ol, ul {
-  list-style: none; }
+
 
 blockquote, q {
   quotes: none; }
@@ -147,6 +146,8 @@ h3 {
   margin-bottom: 0;
   color: rgba(35, 44, 57, 0.9); }
 
+ul,
+li,
 p {
   line-height: 2.25rem;
   margin-bottom: 1.5rem; }
@@ -156,11 +157,17 @@ p {
     color: inherit; }
     p.intro a:hover {
       background: none; }
-  p a {
+  p a,
+  li strong a {
     color: #EC1962;
     border-bottom: 1px solid transparent; }
-    p a:hover {
-      background: #EFDF31; }
+    p a:hover,
+    li strong a:hover {
+      border-bottom: 3px solid #EFDF31; }
+
+.unordered {
+  list-style-type: decimal;
+}
 
 b, strong {
   font-weight: 400;
