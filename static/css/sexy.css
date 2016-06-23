@@ -165,10 +165,6 @@ p {
     li strong a:hover {
       border-bottom: 3px solid #EFDF31; }
 
-.unordered {
-  list-style-type: decimal;
-}
-
 b, strong {
   font-weight: 400;
   color: rgba(35, 44, 57, 0.9); }
@@ -380,7 +376,8 @@ ABOUT
 ============================== */
 .cv li {
   padding: 0 0 0 72px;
-  position: relative; }
+  position: relative; 
+  list-style-type: none;}
   .cv li img {
     position: absolute;
     left: 0;
