@@ -714,7 +714,7 @@ CAROUSEL STUFF
 .carousel {
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 18rem;
   height: 37.5rem;
   margin-bottom: 24px;
   -webkit-perspective: 500px;
@@ -732,6 +732,13 @@ CAROUSEL STUFF
   top: 0;
   left: 0;
 }
+
+
+
+
+
+
+
 
 
 
